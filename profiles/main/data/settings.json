@@ -1,3 +1,29 @@
 {
-    "redhat.telemetry.enabled": true
+  "redhat.telemetry.enabled": true,
+  "[python]": {
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": "explicit",
+      "source.fixAll": "explicit"
+    },
+    "editor.defaultFormatter": "charliermarsh.ruff",
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true
+  },
+  "editor.formatOnSave": true,
+  "editor.minimap.enabled": false,
+  "notebook.lineNumbers": "on",
+  "notebook.output.scrolling": true,
+  "vim.camelCaseMotion.enable": true,
+  "vim.sneak": true,
+  "latex-workshop.formatting.latex": "latexindent",
+  "syncSettings.crons": {
+    "download": "0 * * * *",
+    "upload": "0 * * * *"
+  },
+  "python.languageServer": "Default",
+  "yaml.schemas": {
+    "file:///Users/harshapk/.vscode-oss/extensions/continue.continue-1.2.10-darwin-arm64/config-yaml-schema.json": [
+      ".continue/**/*.yaml"
+    ]
+  }
 }
