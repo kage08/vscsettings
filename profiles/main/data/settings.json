@@ -25,5 +25,6 @@
     "file:///Users/harshapk/.vscode-oss/extensions/continue.continue-1.2.10-darwin-arm64/config-yaml-schema.json": [
       ".continue/**/*.yaml"
     ]
-  }
+  },
+  "telemetry.telemetryLevel": "all"
 }

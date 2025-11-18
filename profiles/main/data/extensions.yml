@@ -74,6 +74,8 @@ enabled:
     uuid: 06574cb4-e5dc-4631-8174-a543a4533621
   - id: saoudrizwan.claude-dev
     uuid: ad94c633-a9d5-4f78-b85f-c664e7d91a0f
+  - id: Supermaven.supermaven
+    uuid: b16722b2-9d79-4b90-8f9c-d385d23eeeed
   - id: tamasfe.even-better-toml
     uuid: b2215d5f-675e-4a2b-b6ac-1ca737518b78
   - id: tecosaur.latex-utilities
