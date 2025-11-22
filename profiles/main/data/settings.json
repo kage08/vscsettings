@@ -20,11 +20,13 @@
     "download": "0 * * * *",
     "upload": "0 * * * *"
   },
-  "python.languageServer": "Default",
+  "python.languageServer": "None",
   "yaml.schemas": {
     "file:///Users/harshapk/.vscode-oss/extensions/continue.continue-1.2.10-darwin-arm64/config-yaml-schema.json": [
       ".continue/**/*.yaml"
     ]
   },
-  "telemetry.telemetryLevel": "all"
+  "telemetry.telemetryLevel": "all",
+  "vim.smartRelativeLine": true,
+  "editor.lineNumbers": "relative"
 }

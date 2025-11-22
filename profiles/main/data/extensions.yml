@@ -1,13 +1,34 @@
+builtin:
+  disabled:
+    - ms-vscode.js-debug
+    - ms-vscode.vscode-js-profile-table
+    - vscode.configuration-editing
+    - vscode.css-language-features
+    - vscode.debug-auto-launch
+    - vscode.debug-server-ready
+    - vscode.emmet
+    - vscode.extension-editing
+    - vscode.git
+    - vscode.git-base
+    - vscode.github
+    - vscode.grunt
+    - vscode.gulp
+    - vscode.html-language-features
+    - vscode.ipynb
+    - vscode.jake
+    - vscode.json-language-features
+    - vscode.markdown-language-features
+    - vscode.markdown-math
+    - vscode.merge-conflict
+    - vscode.mermaid-chat-features
+    - vscode.npm
+    - vscode.php-language-features
+    - vscode.references-view
+    - vscode.search-result
+    - vscode.terminal-suggest
+    - vscode.tunnel-forwarding
+    - vscode.typescript-language-features
 disabled:
-  - id: hall.draw
-    uuid: 6a4e2930-c7ca-48df-b2a5-2c7e4229d371
-  - id: pomdtr.excalidraw-editor
-    uuid: 3dc917d8-e986-4abf-8159-6fc2233995bd
-enabled:
-  - id: aaron-bond.better-comments
-    uuid: 7a0110bb-231a-4598-aa1b-0769ea46d28b
-  - id: bierner.emojisense
-    uuid: 081cd2e9-bc51-4ea3-977e-544bed2e33a8
   - id: bierner.markdown-mermaid
     uuid: f8d0ffc4-66bb-4a9c-8149-ef8f043691a1
   - id: bierner.markdown-preview-github-styles
@@ -17,31 +38,29 @@ enabled:
   - id: christian-kohler.path-intellisense
     uuid: a41c1549-4053-44d4-bf30-60fc809b4a86
   - id: DavidAnson.vscode-markdownlint
-    uuid: daf8b44d-8aae-4da2-80c5-1f770219f643
+    uuid: 00000000-0000-0000-0000-000000000000
   - id: donjayamanne.githistory
     uuid: 5960f38e-0bbe-4644-8f9c-9c8824e82511
   - id: EdwinKofler.vscode-hyperupcall-pack-latex
-    uuid: 13cd29f9-99bd-4bdd-873a-599695748945
+    uuid: 00000000-0000-0000-0000-000000000000
   - id: EdwinKofler.vscode-hyperupcall-pack-markdown
-    uuid: 7532dc0a-9710-4aee-9483-8f6e5000205b
+    uuid: 00000000-0000-0000-0000-000000000000
   - id: esbenp.prettier-vscode
     uuid: 96fa4707-6983-4489-b7c5-d5ffdfdcce90
   - id: golang.go
     uuid: d6f6cfea-4b6f-41f4-b571-6ad2ab7918da
   - id: GrapeCity.gc-excelviewer
-    uuid: 8bb12ae3-73f8-40cf-86b7-4bd5729c6238
+    uuid: 00000000-0000-0000-0000-000000000000
   - id: Gruntfuggly.todo-tree
     uuid: 261cac81-cd7b-4555-bb41-0c2d2bcd3e70
-  - id: hediet.vscode-drawio
-    uuid: ea6a6046-2132-421f-a984-664909fcf0b8
+  - id: hall.draw
+    uuid: 6a4e2930-c7ca-48df-b2a5-2c7e4229d371
   - id: James-Yu.latex-workshop
-    uuid: 61d03280-3919-4dd1-bce1-178ca21fdeaf
-  - id: jeanp413.open-remote-ssh
-    uuid: 9fc16cea-08e2-4ae5-bf75-224004d722ff
+    uuid: 00000000-0000-0000-0000-000000000000
   - id: llvm-vs-code-extensions.vscode-clangd
     uuid: 103154cb-b81d-4e1b-8281-c5f4fa563d37
   - id: marimo-team.vscode-marimo
-    uuid: dab7c059-7586-4e98-b498-ceacc547ec9e
+    uuid: 00000000-0000-0000-0000-000000000000
   - id: marp-team.marp-vscode
     uuid: a6226409-c077-4199-9efe-5fd4d91a253d
   - id: meta.pyrefly
@@ -56,8 +75,6 @@ enabled:
     uuid: b41d8e8a-b6d4-4202-8f07-7189bdda81be
   - id: ms-toolsai.jupyter
     uuid: 6c2f1801-1e7f-45b2-9b5c-7782f1e076e8
-  - id: ms-toolsai.jupyter-keymap
-    uuid: 9f6dc8db-620c-4844-b8c5-e74914f1be27
   - id: ms-toolsai.jupyter-renderers
     uuid: b15c72f8-d5fe-421a-a4f7-27ed9f6addbf
   - id: ms-toolsai.vscode-jupyter-cell-tags
@@ -66,6 +83,8 @@ enabled:
     uuid: 2e7e4dec-3b88-4f57-ae83-7c6a82994e6d
   - id: ms-toolsai.vscode-jupyter-slideshow
     uuid: e153ca70-b543-4865-b4c5-b31d34185948
+  - id: pomdtr.excalidraw-editor
+    uuid: 3dc917d8-e986-4abf-8159-6fc2233995bd
   - id: quarto.quarto
     uuid: a1be81fc-0f3a-4f2e-92ee-3fdc7ab96c73
   - id: redhat.vscode-yaml
@@ -75,20 +94,31 @@ enabled:
   - id: saoudrizwan.claude-dev
     uuid: ad94c633-a9d5-4f78-b85f-c664e7d91a0f
   - id: Supermaven.supermaven
-    uuid: b16722b2-9d79-4b90-8f9c-d385d23eeeed
+    uuid: 00000000-0000-0000-0000-000000000000
   - id: tamasfe.even-better-toml
     uuid: b2215d5f-675e-4a2b-b6ac-1ca737518b78
   - id: tecosaur.latex-utilities
     uuid: e12d8c6b-8d86-4f35-99dc-98aa87a06182
   - id: unifiedjs.vscode-mdx
     uuid: af8cfc85-cb72-45d0-bae2-9a98cd0c69f3
+  - id: yzhang.markdown-all-in-one
+    uuid: 98790d67-10fa-497c-9113-f6c7489207b2
+enabled:
+  - id: aaron-bond.better-comments
+    uuid: 7a0110bb-231a-4598-aa1b-0769ea46d28b
+  - id: bierner.emojisense
+    uuid: 081cd2e9-bc51-4ea3-977e-544bed2e33a8
+  - id: hediet.vscode-drawio
+    uuid: ea6a6046-2132-421f-a984-664909fcf0b8
+  - id: jeanp413.open-remote-ssh
+    uuid: 9fc16cea-08e2-4ae5-bf75-224004d722ff
+  - id: ms-toolsai.jupyter-keymap
+    uuid: 9f6dc8db-620c-4844-b8c5-e74914f1be27
   - id: usernamehw.errorlens
     uuid: 9d8c32ab-354c-4daf-a9bf-20b633734435
   - id: vscodevim.vim
     uuid: d96e79c6-8b25-4be3-8545-0e0ecefcae03
   - id: wayou.vscode-todo-highlight
     uuid: 97a08c5f-6667-4242-a5c5-045dfb6bd4b9
-  - id: yzhang.markdown-all-in-one
-    uuid: 98790d67-10fa-497c-9113-f6c7489207b2
   - id: zokugun.cron-tasks
     uuid: b7bbbbd5-7a39-4312-87aa-ef6a41de67fb
